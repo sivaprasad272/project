@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 We’ll not be going in details of how GitHub works but will be exploring how we can build something similar to it for hosting your git repositories, from where you can clone and perform other git related things.
 
 Before going to remote servers let’s just create a local git server and in order to do that we need to know few things in advance.
@@ -11,3 +12,8 @@ Bare repositories — — git init — bare
 git init — bare Initialise an empty Git repository, but omit the working directory. Shared repositories should always be created with the --bare flag. Conventionally, repositories initialised with the --bare flag end in .git. For example, the bare version of a repository called my-project should be stored in a directory called my-project.git.
 
 A bare Git repository is typically used as a Remote Repository that is sharing a repository among several different people. You don’t do work right inside the remote repository so there’s no Working Tree (the files in your project that you edit), just bare repository data.
+=======
+fifth line added
+fifth line added
+Here I’ve initialised a bare git repository by calling it server.git as mentioned above it has to be associated with .git, we can also see that it has created a repo with name server.git and it has basic .git directory contents. We can see it doesn’t have any source and tree that means we cannot use it directly.
+>>>>>>> b1
