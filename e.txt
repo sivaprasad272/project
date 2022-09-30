@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 We’ll not be going in details of how GitHub works but will be exploring how we can build something similar to it for hosting your git repositories, from where you can clone and perform other git related things.
 
 Before going to remote servers let’s just create a local git server and in order to do that we need to know few things in advance.
@@ -27,3 +28,10 @@ git add README.md
 git commit -m "First commit"
 git push
 >>>>>>> 5c4772322fbf361b3337584858052b22dc8f1fa1
+=======
+added second line
+3rd line added
+you need to create a directory on a remote server. 
+Then use "git init" command to set it as a repository. 
+This should be done for each new project you have (each new folder)
+>>>>>>> 397bd18dadf9db8207f5a6bd4467c65ecab54719
