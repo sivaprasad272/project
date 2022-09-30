@@ -1,1 +1,7 @@
 lines added
+git clone  ssh://pi@raspberry/home/pi/my/repo
+cd myrepo
+touch README.md
+git add README.md
+git commit -m "First commit"
+git push
