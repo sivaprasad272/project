@@ -3,3 +3,11 @@ added second line
 you need to create a directory on a remote server. 
 Then use "git init" command to set it as a repository. 
 This should be done for each new project you have (each new folder)
+$ make ps
+CONTAINER ID        IMAGE                                     COMMAND                  CREATED             STATUS              PORTS                                                                                                NAMES
+f6686986fe18        hyperledger/fabric-tools:x86_64-1.0.4     "bash -c 'cd /tmp;..."   6 seconds ago       Up 14 seconds                                                                                                            fabric-cli
+c7f274bf60bc        yeasy/hyperledger-fabric-peer:1.0.4       "peer node start"        6 seconds ago       Up 11 seconds       7050/tcp, 7054-7059/tcp, 0.0.0.0:10051->7051/tcp, 0.0.0.0:10052->7052/tcp, 0.0.0.0:10053->7053/tcp   peer1.org2.example.com
+c6c5f69f2d53        yeasy/hyperledger-fabric-peer:1.0.4       "peer node start"        6 seconds ago       Up 12 seconds       7050/tcp, 7054-7059/tcp, 0.0.0.0:8051->7051/tcp, 0.0.0.0:8052->7052/tcp, 0.0.0.0:8053->7053/tcp      peer1.org1.example.com
+3cad0c519e6f        yeasy/hyperledger-fabric-peer:1.0.4       "peer node start"        6 seconds ago       Up 13 seconds       7050/tcp, 7054-7059/tcp, 0.0.0.0:7051-7053->7051-7053/tcp                                            peer0.org1.example.com
+8b371209f6b8        yeasy/hyperledger-fabric-peer:1.0.4       "peer node start"        6 seconds ago       Up 11 seconds       7050/tcp, 7054-7059/tcp, 0.0.0.0:9051->7051/tcp, 0.0.0.0:9052->7052/tcp, 0.0.0.0:9053->7053/tcp      peer0.org2.example.com
+ba1f00a9c83c        hyperledger/fabric-orderer:x86_64-1.0.4   "orderer start"          6 seconds ago       Up 14 seconds       0.0.0.0:7050->7050/tcp                                                                               orderer.example.com
