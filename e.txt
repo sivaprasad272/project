@@ -1,2 +1,5 @@
 added second line
 3rd line added
+you need to create a directory on a remote server. 
+Then use "git init" command to set it as a repository. 
+This should be done for each new project you have (each new folder)
